@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1990ED0F1CC43E8C0066FE84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1990ED0E1CC43E8C0066FE84 /* AppDelegate.swift */; };
+		1990ED111CC43E8C0066FE84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1990ED101CC43E8C0066FE84 /* ViewController.swift */; };
+		1990ED141CC43E8C0066FE84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1990ED121CC43E8C0066FE84 /* Main.storyboard */; };
+		1990ED161CC43E8C0066FE84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1990ED151CC43E8C0066FE84 /* Assets.xcassets */; };
+		1990ED191CC43E8C0066FE84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1990ED171CC43E8C0066FE84 /* LaunchScreen.storyboard */; };
+		1990ED241CC43E8D0066FE84 /* stackatadaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1990ED231CC43E8D0066FE84 /* stackatadaTests.swift */; };
+		1990ED2F1CC43E8D0066FE84 /* stackatadaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1990ED2E1CC43E8D0066FE84 /* stackatadaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1990ED201CC43E8D0066FE84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1990ED031CC43E8C0066FE84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1990ED0A1CC43E8C0066FE84;
+			remoteInfo = stackatada;
+		};
+		1990ED2B1CC43E8D0066FE84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1990ED031CC43E8C0066FE84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1990ED0A1CC43E8C0066FE84;
+			remoteInfo = stackatada;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1990ED0B1CC43E8C0066FE84 /* stackatada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stackatada.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1990ED0E1CC43E8C0066FE84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1990ED101CC43E8C0066FE84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1990ED131CC43E8C0066FE84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1990ED151CC43E8C0066FE84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1990ED181CC43E8C0066FE84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1990ED1A1CC43E8C0066FE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1990ED1F1CC43E8D0066FE84 /* stackatadaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stackatadaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1990ED231CC43E8D0066FE84 /* stackatadaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stackatadaTests.swift; sourceTree = "<group>"; };
+		1990ED251CC43E8D0066FE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1990ED2A1CC43E8D0066FE84 /* stackatadaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stackatadaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1990ED2E1CC43E8D0066FE84 /* stackatadaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stackatadaUITests.swift; sourceTree = "<group>"; };
+		1990ED301CC43E8D0066FE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1990ED081CC43E8C0066FE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1990ED1C1CC43E8D0066FE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1990ED271CC43E8D0066FE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1990ED021CC43E8C0066FE84 = {
+			isa = PBXGroup;
+			children = (
+				1990ED0D1CC43E8C0066FE84 /* stackatada */,
+				1990ED221CC43E8D0066FE84 /* stackatadaTests */,
+				1990ED2D1CC43E8D0066FE84 /* stackatadaUITests */,
+				1990ED0C1CC43E8C0066FE84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1990ED0C1CC43E8C0066FE84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1990ED0B1CC43E8C0066FE84 /* stackatada.app */,
+				1990ED1F1CC43E8D0066FE84 /* stackatadaTests.xctest */,
+				1990ED2A1CC43E8D0066FE84 /* stackatadaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1990ED0D1CC43E8C0066FE84 /* stackatada */ = {
+			isa = PBXGroup;
+			children = (
+				1990ED0E1CC43E8C0066FE84 /* AppDelegate.swift */,
+				1990ED101CC43E8C0066FE84 /* ViewController.swift */,
+				1990ED121CC43E8C0066FE84 /* Main.storyboard */,
+				1990ED151CC43E8C0066FE84 /* Assets.xcassets */,
+				1990ED171CC43E8C0066FE84 /* LaunchScreen.storyboard */,
+				1990ED1A1CC43E8C0066FE84 /* Info.plist */,
+			);
+			path = stackatada;
+			sourceTree = "<group>";
+		};
+		1990ED221CC43E8D0066FE84 /* stackatadaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1990ED231CC43E8D0066FE84 /* stackatadaTests.swift */,
+				1990ED251CC43E8D0066FE84 /* Info.plist */,
+			);
+			path = stackatadaTests;
+			sourceTree = "<group>";
+		};
+		1990ED2D1CC43E8D0066FE84 /* stackatadaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1990ED2E1CC43E8D0066FE84 /* stackatadaUITests.swift */,
+				1990ED301CC43E8D0066FE84 /* Info.plist */,
+			);
+			path = stackatadaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1990ED0A1CC43E8C0066FE84 /* stackatada */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1990ED331CC43E8D0066FE84 /* Build configuration list for PBXNativeTarget "stackatada" */;
+			buildPhases = (
+				1990ED071CC43E8C0066FE84 /* Sources */,
+				1990ED081CC43E8C0066FE84 /* Frameworks */,
+				1990ED091CC43E8C0066FE84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stackatada;
+			productName = stackatada;
+			productReference = 1990ED0B1CC43E8C0066FE84 /* stackatada.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1990ED1E1CC43E8D0066FE84 /* stackatadaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1990ED361CC43E8D0066FE84 /* Build configuration list for PBXNativeTarget "stackatadaTests" */;
+			buildPhases = (
+				1990ED1B1CC43E8D0066FE84 /* Sources */,
+				1990ED1C1CC43E8D0066FE84 /* Frameworks */,
+				1990ED1D1CC43E8D0066FE84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1990ED211CC43E8D0066FE84 /* PBXTargetDependency */,
+			);
+			name = stackatadaTests;
+			productName = stackatadaTests;
+			productReference = 1990ED1F1CC43E8D0066FE84 /* stackatadaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1990ED291CC43E8D0066FE84 /* stackatadaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1990ED391CC43E8D0066FE84 /* Build configuration list for PBXNativeTarget "stackatadaUITests" */;
+			buildPhases = (
+				1990ED261CC43E8D0066FE84 /* Sources */,
+				1990ED271CC43E8D0066FE84 /* Frameworks */,
+				1990ED281CC43E8D0066FE84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1990ED2C1CC43E8D0066FE84 /* PBXTargetDependency */,
+			);
+			name = stackatadaUITests;
+			productName = stackatadaUITests;
+			productReference = 1990ED2A1CC43E8D0066FE84 /* stackatadaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1990ED031CC43E8C0066FE84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Ajackster;
+				TargetAttributes = {
+					1990ED0A1CC43E8C0066FE84 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					1990ED1E1CC43E8D0066FE84 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1990ED0A1CC43E8C0066FE84;
+					};
+					1990ED291CC43E8D0066FE84 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1990ED0A1CC43E8C0066FE84;
+					};
+				};
+			};
+			buildConfigurationList = 1990ED061CC43E8C0066FE84 /* Build configuration list for PBXProject "stackatada" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1990ED021CC43E8C0066FE84;
+			productRefGroup = 1990ED0C1CC43E8C0066FE84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1990ED0A1CC43E8C0066FE84 /* stackatada */,
+				1990ED1E1CC43E8D0066FE84 /* stackatadaTests */,
+				1990ED291CC43E8D0066FE84 /* stackatadaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1990ED091CC43E8C0066FE84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1990ED191CC43E8C0066FE84 /* LaunchScreen.storyboard in Resources */,
+				1990ED161CC43E8C0066FE84 /* Assets.xcassets in Resources */,
+				1990ED141CC43E8C0066FE84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1990ED1D1CC43E8D0066FE84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1990ED281CC43E8D0066FE84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1990ED071CC43E8C0066FE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1990ED111CC43E8C0066FE84 /* ViewController.swift in Sources */,
+				1990ED0F1CC43E8C0066FE84 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1990ED1B1CC43E8D0066FE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1990ED241CC43E8D0066FE84 /* stackatadaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1990ED261CC43E8D0066FE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1990ED2F1CC43E8D0066FE84 /* stackatadaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1990ED211CC43E8D0066FE84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1990ED0A1CC43E8C0066FE84 /* stackatada */;
+			targetProxy = 1990ED201CC43E8D0066FE84 /* PBXContainerItemProxy */;
+		};
+		1990ED2C1CC43E8D0066FE84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1990ED0A1CC43E8C0066FE84 /* stackatada */;
+			targetProxy = 1990ED2B1CC43E8D0066FE84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1990ED121CC43E8C0066FE84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1990ED131CC43E8C0066FE84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1990ED171CC43E8C0066FE84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1990ED181CC43E8C0066FE84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1990ED311CC43E8D0066FE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1990ED321CC43E8D0066FE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1990ED341CC43E8D0066FE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = stackatada/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajackster.stackatada;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1990ED351CC43E8D0066FE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = stackatada/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajackster.stackatada;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1990ED371CC43E8D0066FE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = stackatadaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajackster.stackatadaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stackatada.app/stackatada";
+			};
+			name = Debug;
+		};
+		1990ED381CC43E8D0066FE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = stackatadaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajackster.stackatadaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stackatada.app/stackatada";
+			};
+			name = Release;
+		};
+		1990ED3A1CC43E8D0066FE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = stackatadaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajackster.stackatadaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = stackatada;
+			};
+			name = Debug;
+		};
+		1990ED3B1CC43E8D0066FE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = stackatadaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajackster.stackatadaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = stackatada;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1990ED061CC43E8C0066FE84 /* Build configuration list for PBXProject "stackatada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1990ED311CC43E8D0066FE84 /* Debug */,
+				1990ED321CC43E8D0066FE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1990ED331CC43E8D0066FE84 /* Build configuration list for PBXNativeTarget "stackatada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1990ED341CC43E8D0066FE84 /* Debug */,
+				1990ED351CC43E8D0066FE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1990ED361CC43E8D0066FE84 /* Build configuration list for PBXNativeTarget "stackatadaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1990ED371CC43E8D0066FE84 /* Debug */,
+				1990ED381CC43E8D0066FE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1990ED391CC43E8D0066FE84 /* Build configuration list for PBXNativeTarget "stackatadaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1990ED3A1CC43E8D0066FE84 /* Debug */,
+				1990ED3B1CC43E8D0066FE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1990ED031CC43E8C0066FE84 /* Project object */;
+}
