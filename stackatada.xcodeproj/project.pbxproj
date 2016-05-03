@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		193898121CD07B2800DB19E2 /* buttonSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 193898111CD07B2800DB19E2 /* buttonSound.mp3 */; };
 		1990ED0F1CC43E8C0066FE84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1990ED0E1CC43E8C0066FE84 /* AppDelegate.swift */; };
 		1990ED111CC43E8C0066FE84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1990ED101CC43E8C0066FE84 /* ViewController.swift */; };
 		1990ED141CC43E8C0066FE84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1990ED121CC43E8C0066FE84 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		193898111CD07B2800DB19E2 /* buttonSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = buttonSound.mp3; path = ../../../../Downloads/buttonSound.mp3; sourceTree = "<group>"; };
 		1990ED0B1CC43E8C0066FE84 /* stackatada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stackatada.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1990ED0E1CC43E8C0066FE84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1990ED101CC43E8C0066FE84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		1990ED0D1CC43E8C0066FE84 /* stackatada */ = {
 			isa = PBXGroup;
 			children = (
+				193898111CD07B2800DB19E2 /* buttonSound.mp3 */,
 				1990ED0E1CC43E8C0066FE84 /* AppDelegate.swift */,
 				1990ED101CC43E8C0066FE84 /* ViewController.swift */,
 				1990ED121CC43E8C0066FE84 /* Main.storyboard */,
@@ -232,6 +235,7 @@
 				1990ED191CC43E8C0066FE84 /* LaunchScreen.storyboard in Resources */,
 				1990ED161CC43E8C0066FE84 /* Assets.xcassets in Resources */,
 				1990ED141CC43E8C0066FE84 /* Main.storyboard in Resources */,
+				193898121CD07B2800DB19E2 /* buttonSound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +407,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ajackster.stackatada;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -414,6 +419,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ajackster.stackatada;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -482,6 +488,7 @@
 				1990ED351CC43E8D0066FE84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1990ED361CC43E8D0066FE84 /* Build configuration list for PBXNativeTarget "stackatadaTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +497,7 @@
 				1990ED381CC43E8D0066FE84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1990ED391CC43E8D0066FE84 /* Build configuration list for PBXNativeTarget "stackatadaUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +506,7 @@
 				1990ED3B1CC43E8D0066FE84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
